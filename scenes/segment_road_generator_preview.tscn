@@ -1,11 +1,10 @@
-[gd_scene load_steps=2 format=3]
+[gd_scene format=3 uid="uid://cw3kjgxepymqj"]
 
-[ext_resource type="Script" path="res://scripts/segment_road_generator.gd" id="1_generator"]
+[ext_resource type="Script" uid="uid://bh76tresm72it" path="res://scripts/segment_road_generator.gd" id="1_generator"]
 
-[node name="SegmentRoadGeneratorPreview" type="Node2D"]
+[node name="SegmentRoadGeneratorPreview" type="Node2D" unique_id=329900043]
 script = ExtResource("1_generator")
 minimum_piece_count = 500
 maximum_piece_count = 500
 
-[node name="Camera2D" type="Camera2D" parent="."]
-position_smoothing_enabled = false
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1477807076]
